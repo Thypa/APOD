@@ -1,7 +1,7 @@
 import requests
 import os
 
-api_key = "9YcMRAW7oBmRAc0Di6dwgy5Ho4nrnyLanbtm5jg6"
+api_key = "API KEY"
 APOD_URL = "https://api.nasa.gov/planetary/apod?api_key=" + api_key
 EPIC_URL = "https://api.nasa.gov/EPIC/api/natural?api_key=" + api_key
 apod_data = requests.get(APOD_URL).json()
